@@ -1,0 +1,270 @@
+.dashboard_heading h3 {
+	background-color: rgb(223, 253, 253);
+	color: rgb(0, 89, 255);
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px auto 40px auto;
+	height: 150px;
+}
+
+.page_top_margin {
+	margin-top: 70px;
+}
+
+.menu_bar .drawer {
+	background-color: rgb(83 83 82);
+}
+
+.loginn_bg {
+	height: 100vh;
+	width: 100vw;
+	background: url("../src/assets/loginn-bg.png") center/cover no-repeat;
+
+}
+
+/* 
+.login_box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0.808);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.login_box h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	color: #FFF;
+	text-align: center;
+}
+
+.login_box .inputBox {
+	position: relative;
+}
+.login_box .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #FFF;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid #FFF;
+	outline: none;
+	background: transparent;
+}
+.login_box .inputBox label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: #FFF;
+	pointer-events: none;
+	transition: .5s;
+	animation: LabelOnLoad 1s forwards 0s ease;
+}
+------- ya seleker
+
+.login_box .inputBox input:focus ~ label, 
+.login_box .inputBox input:valid ~ label {
+	top: -19px;
+	left:0;
+	color: #03A9F4;
+	font-size: 12px;
+}
+.login_box input[type='submit'] {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #FFF;
+	background: #03A9F4;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 14px;
+}
+.login_box input[type='submit']:hover {
+	background-color: rgba(3, 169, 244, 0.7);
+}
+-----media
+
+.login_page_links {
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
+
+.pageFooter {
+	padding: 0 30px !important;
+	margin-top: auto;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form-check-input {
+	border-color: rgba(0, 0, 0, 0.308) !important;
+}
+ */
+
+
+
+.login-box {
+	position: absolute;
+	width: 655px;
+	height: 800px;
+	top: 100px;
+	right: 10%;
+	border-radius: 14.59px;
+	/* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+	background: #FFFFFFB2;
+	padding-left: 50px;
+	align-content: center;
+	opacity: 1;
+	box-shadow: inset 0 -8px 0 0 #51B32E;;
+		
+	  
+}
+
+
+.login-header img {
+	width: 401.21px;
+	height: 98.48px;
+	display: block;
+	margin: 0 auto 20px;
+	opacity: 1;
+}
+
+.login-header h2 {
+	font-size: 29.18px;
+	font-weight: 400;
+	line-height: 38.91px;
+	text-align: left;
+	color: #0F172A;
+}
+
+.login-header p {
+	font-size: 19.45px;
+	font-weight: 400;
+	line-height: 29.18px;
+	text-align: left;
+	color: #0F172A;
+}
+
+
+.Form-box {
+	width: 537.38px;
+	margin-top: 20px;
+}
+
+.Form-box label {
+	font-size: 16.77px;
+	font-weight: 500;
+	text-align: left;
+	color: #0F172A;
+}
+
+.Form-box input {
+	width: 100%;
+	height: 60.79px;
+	padding: 17.23px 19.19px;
+	border-radius: 9.73px;
+	border: 1.22px solid #CBD5E1;
+	background: #FFFFFF99;
+	color: #0F172A;
+}
+
+
+.Form-box button {
+	width: 100%;
+	height: 75.38px;
+	padding: 20.23px 0;
+	border-radius: 7.29px;
+	margin-top: 20px;
+	box-shadow: 0px 1px 5.7px 0px #0000004D;
+	background: linear-gradient(180deg, #54D227 24.32px, #51B32E 99.98%);
+	border: none;
+	font-size: 25px;
+	color: #fff;
+}
+
+
+.login-footer {
+	width: 531px;
+	padding: 19.45px;
+	margin-top: 40px;
+	text-align: center;
+	border: 1.22px solid #2AAF9F;
+	background: #FFEBEE80;
+
+
+}
+
+.login-footer p {
+	color: #546E7A;
+	text-align: center;
+	margin: 0;
+}
+
+.login-footer span {
+	font-size: 17.02px;
+	font-weight: 700;
+	line-height: 24.32px;
+	text-align: center;
+
+
+}
+
+.login-footer p span {
+	color: #54D227;
+}
+
+.login-footer p strong span {
+	color: #2AAF9F;
+}
+
+.InputGroup .InputGroupText {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	background: #FFFFFF99;
+}
+
+.InputGroup .InputGroupText img {
+	width: 1em;
+	height: 1em;
+}
+
+@keyframes LabelOnLoad {
+	0% {
+		transform: rotate(0) translateY(-19px);
+		opacity: 0;
+	}
+
+	100% {
+		transform: rotate(0) translateY(0);
+		opacity: 1;
+	}
+}
+
+@media (max-width: 720px) {
+	.login_box {
+		width: 80%;
+	}
+}
+
+@media (min-width: 721px) and (max-width: 1024px) {
+	.login_box {
+		width: 70%;
+	}
+}
