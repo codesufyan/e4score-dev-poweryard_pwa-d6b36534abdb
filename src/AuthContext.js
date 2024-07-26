@@ -35,7 +35,7 @@
 
 
 
-import React, { createContext, useState, useEffect } from 'react';
+import React, { createContext, useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 
 const AuthContext = createContext();
@@ -47,9 +47,11 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     const checkLogin = async () => {
       try {
-        const response = await axios.post('https://py-dev-api.e4score.com/authentication/v2/login', {
-          withCredentials: true
-        });
+        const response = await axios.post(
+          'https://py-dev-api.e4score.com/authentication/v2/login',
+          {},
+          { withCredentials: true }
+        );
 
         if (response.data.code === '200') {
           setIsLoggedIn(response.data.isAuthenticated);
@@ -75,4 +77,5 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
-export default AuthContext;
+export const useAuth = () => useContext(AuthContext);
+
