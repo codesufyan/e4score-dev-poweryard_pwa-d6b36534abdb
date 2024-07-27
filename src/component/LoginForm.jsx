@@ -39,6 +39,7 @@ const LoginForm = () => {
       // Check if user has the 'PowerYard Admin' role
       const hasPowerYardAdminRole = response.data.content.roles && response.data.content.roles.some(role => role.displayName === 'PowerYard Admin');
 
+      
       if (hasPowerYardAdminRole) {
         localStorage.setItem('loginCheck', 'true'); // Save loginCheck
         navigate("/dashboard"); // Redirect to dashboard on successful login
