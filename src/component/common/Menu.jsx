@@ -101,8 +101,8 @@ function Menu(args) {
     if (text === "Dashboard") return navigate("/dashboard");
     if (text === "Yard View") return navigate("/yard-view");
     if (text === "On Site") return navigate("/onsite");
-    if (text === "Logout")  return navigate("/"); 
-    
+    if (text === "Logout")  return localStorage.clear(), navigate("/") ;
+      
   };
 
   const icons = (page) => {
