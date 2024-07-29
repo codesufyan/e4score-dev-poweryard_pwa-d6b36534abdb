@@ -91,6 +91,7 @@ import ViewQuiltIcon from '@mui/icons-material/ViewQuilt';
 import LogoutIcon from '@mui/icons-material/Logout';
 import { useNavigate } from 'react-router-dom';
 
+
 function Menu(args) {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = useState(false);
@@ -135,19 +136,25 @@ function Menu(args) {
     </Box>
   );
 
-  return (
-    <Navbar {...args} expand={false} fixed="top" className='menu_bar' full={false}>
-      <NavbarToggler onClick={toggle} />
-      <Drawer
-        anchor="left"
-        open={isOpen}
-        onClose={toggle}
-        className='drawer'
-      >
-        {list()}
-      </Drawer>
-    </Navbar>
-  );
+  // return (
+  //   <Navbar {...args} expand={false} fixed="top" className='menu_bar' style={{width: 24.62,
+  //     height: 29.54,
+  //     top: 2,
+  //     left: 36.92,
+  //     gap: 0,
+  //     opacity: 1,
+  //     }} full={false}>
+  //     <NavbarToggler onClick={toggle} />
+  //     <Drawer
+  //       anchor="left"
+  //       open={isOpen}
+  //       onClose={toggle}
+  //       className='drawer'
+  //     >
+  //       {list()}
+  //     </Drawer>
+  //   </Navbar>
+  // );
 }
 
 export default Menu;

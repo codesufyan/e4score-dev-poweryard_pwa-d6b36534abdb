@@ -10,8 +10,8 @@ const Footer = () => {
   const [unreadMessage, setUnreadMessage] = useState(true);
 
   return (
-    <CardFooter className='w-100 pageFooter'>
-        {unreadEmail ?
+    <CardFooter className='pageFooter'>
+        {/* {unreadEmail ?
           <EmailIcon sx={{
             color: "#0278fb",
             fontSize: "50px"
@@ -21,9 +21,11 @@ const Footer = () => {
             color: "#0278fb",
             fontSize: "50px"
           }} />
-        }
-        <p className='fs-4'>Please check spot R7 if trailor in!! : <span className='fs-6'>Dispatcher 8:45pm Jul 7th 2022</span></p>
-        {unreadMessage ?
+        } */}
+    <div> 
+    <p>  <span>PowerYard</span> © 2024 Lazer Logistics, Inc. and IGIT Enterprises, Inc. D/B/A e4score.com. All Rights Reserved. Patent Pending  Version : 2.3.3.0</p>
+    </div> 
+        {/* {unreadMessage ?
           <MessageIcon sx={{
             color: "#0278fb",
             fontSize: "50px"
@@ -33,7 +35,7 @@ const Footer = () => {
             color: "#0278fb",
             fontSize: "50px"
           }} />
-        }
+        } */}
     </CardFooter>
   );
 };
