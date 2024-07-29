@@ -1,6 +1,4 @@
-// import React, { useContext } from 'react';
-// import { Route, Redirect } from 'react-router-dom';
-// import AuthContext from './AuthContext';
+
 
 // const ProtectedRoute = ({ component: Component, ...rest }) => {
 //   const { isAuthenticated, loading } = useContext(AuthContext);
@@ -27,6 +25,7 @@
 
 
 
+
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 
@@ -36,4 +35,5 @@ const ProtectedRoute = ({ component: Component, ...rest }) => {
 };
 
 export default ProtectedRoute;
+
 

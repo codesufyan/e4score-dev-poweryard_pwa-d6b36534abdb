@@ -23,9 +23,6 @@
 // export default App;
 
 
-
-
-
 import React from 'react';
 import './App.css';
 import '../src/assets/CSS/Custom.css'
@@ -46,5 +43,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

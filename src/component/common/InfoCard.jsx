@@ -40,11 +40,11 @@ const InfoCard = ({ imageSrc, title, content, ellipseImgSrc }) => {
                 <p style={{
                     margin: 0,
                     fontWeight: '500',
-                    fontSize: '25'
+                    fontSize: '30px'
 
                 }}>{title}</p>
                 <p style={{
-                    margin: 0, color: '#8DD7CF', fontSize: '22', }}>{content}</p>
+                    margin: 0, color: '#8DD7CF', fontSize: '22px', }}>{content}</p>
             </div>
         </div>
     );

@@ -78,12 +78,16 @@ const LoginForm = () => {
       // Log the server response for debugging
       console.log('Login response:', response.data);
 
+
       const hasPowerYardAdminRole = response.data.content.roles && response.data.content.roles.some(r => r.role === 'ROLE_POWERYARD_ADMIN');
 
       
       if (hasPowerYardAdminRole) {
         localStorage.setItem('loginCheck', 'true'); // Save loginCheck
         navigate("/dashboard"); // Redirect to dashboard on successful login
+
+      
+      
       } else {
         setError('You do not have the required permissions to access this application.');
       }

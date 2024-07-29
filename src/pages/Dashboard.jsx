@@ -69,6 +69,7 @@ import IconToday from '../assets/IconToday.png';
 import IconInternet from '../assets/IconInternet.png';
 import IconLocation from '../assets/IconLocation.png';
 import EllipseImage from '../assets/Ellipse.svg';
+import CornerImage from '../assets/Chat.svg'; // Import the SVG image
 
 const Dashboard = () => {
   const navigate = useNavigate();
@@ -148,11 +149,23 @@ const Dashboard = () => {
       <div>
         <p className='ParaNoti'>Please check spot R7 if trailer in!! : <span className='ParaNoti_span'>Dispatcher 8:45pm Jul 7th 2022</span></p>
       </div>
+      <div className="corner-image-container">
+        <img src={CornerImage} alt="Corner SVG" className="corner-image" />
+      </div>
     </div>
   );
 };
 
 export default Dashboard;
+
+
+
+
+
+
+
+
+
 
 
 
